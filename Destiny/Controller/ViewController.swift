@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var choice1Button: UIButton!
     @IBOutlet weak var choice2Button: UIButton!
     
-    let newStory = Story(title: "You see a fork in the road.", choice1: "Take a left.", choice2: "Take a right.")
+    let newStory = StoryLogic()
     
     override func viewDidLoad() {
         super.viewDidLoad()
