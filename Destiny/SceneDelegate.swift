@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Destiny
 //
-//  Created by Colleen Callahan on 1/25/22.
+//  Created by Michael Callahan on 1/25/22.
 //
 
 import UIKit
