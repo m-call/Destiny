@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var choice1Button: UIButton!
     @IBOutlet weak var choice2Button: UIButton!
     
-    let storyLogic = StoryLogic()
+    var storyLogic = StoryLogic()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func choiceMade(_ sender: UIButton) {
+        storyLogic.nextStory(userChoice: sender.currentTitle!)
         
+        updateUI()
     }
     
     func updateUI() {
