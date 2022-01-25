@@ -43,4 +43,17 @@ struct StoryLogic {
             choice2: "End", choice2Destination: 0
         )
     ]
+    
+    func getStoryTitle() -> String {
+        return stories[storyNumber].title
+    }
+    
+    func getChoice1() -> String {
+        return stories[storyNumber].choice1
+    }
+    
+    func getChoice2() -> String {
+        return stories[storyNumber].choice2
+    }
+    
 }
