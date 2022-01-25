@@ -58,13 +58,37 @@
 			children = (
 				618632BE279FBF9900469EA7 /* AppDelegate.swift */,
 				618632C0279FBF9900469EA7 /* SceneDelegate.swift */,
-				618632C2279FBF9900469EA7 /* ViewController.swift */,
-				618632D2279FC11600469EA7 /* Main.storyboard */,
+				61A186CD279FC50100660ED7 /* Model */,
+				61A186CE279FC51200660ED7 /* View */,
+				61A186CF279FC51900660ED7 /* Controller */,
 				618632C7279FBF9D00469EA7 /* Assets.xcassets */,
 				618632C9279FBF9D00469EA7 /* LaunchScreen.storyboard */,
 				618632CC279FBF9D00469EA7 /* Info.plist */,
 			);
 			path = Destiny;
+			sourceTree = "<group>";
+		};
+		61A186CD279FC50100660ED7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61A186CE279FC51200660ED7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				618632D2279FC11600469EA7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61A186CF279FC51900660ED7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				618632C2279FBF9900469EA7 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
