@@ -56,4 +56,14 @@ struct StoryLogic {
         return stories[storyNumber].choice2
     }
     
+    mutating func nextStory(userChoice: String) {
+        let currentStory = stories[storyNumber]
+        
+        if userChoice == currentStory.choice1 {
+            storyNumber = stories[storyNumber].choice1Destination
+        } else if userChoice == currentStory.choice2 {
+            storyNumber = stories[storyNumber].choice2Destination
+        }
+    }
+    
 }
